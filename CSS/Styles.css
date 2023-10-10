@@ -1,0 +1,131 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    color:white;
+  }
+  li a1 {
+    display:block;
+    padding: 8px;
+    color:green;
+  }
+.fotocodoacodo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color:blanchedalmond;
+    opacity: 0.7;
+}
+.container {
+  position: relative;
+}
+.bottomright {
+  position: absolute;
+  bottom: 150px;
+  right: 90px;
+  font-size: 14px;
+  color:aliceblue;
+  text-align: right;
+}
+img { 
+  width: 100%;
+  height: auto;
+}
+.ticket {
+  background-color:green;
+  color:white;
+}
+h6{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.oradores {
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.orador{
+  margin: 15px;
+  padding: auto;
+}
+.Javascript{
+  color:black;
+  background-color: yellow;
+}
+.React{
+  color:white;
+  background-color: lightblue;
+}
+.Negocios{
+  color:white;
+  background-color: grey;
+}
+.Startups{
+  color:white;
+  background-color: red;
+}
+.Honolulu{
+  display:flex;  
+  flex-direction: row;
+}
+.ParrafoHonolulu{
+  background-color: grey;
+  font-size: small;
+  text-align: left;
+  float: right;
+  color: white;
+}
+.botonconocemas{
+  color:white;
+  background-color: gray;
+}
+.Convierteteenorador{
+  text-align: center;
+}
+.p1{
+  text-align: left;
+}
+#tema_charla{
+  padding: 12px 180px 50px 180px;
+  transition: width 0.6s ease-in-out;
+  text-align: left;
+}
+.Botonenviar{
+  background-color: Green;
+  border: none;
+  color: white;
+  padding: 5px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.seccion-final{
+  overflow: hidden;
+  color:aliceblue;
+  background-color: blue;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin: 20px 2px 80px;
+  display: block;
+  border: none;
+}
+.seccion-final_parrafo{
+  border-right: none;
+  background-color: blue;
+  color: white;
+}
